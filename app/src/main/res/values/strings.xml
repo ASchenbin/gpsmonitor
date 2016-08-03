@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">北斗定位</string>
+    <string name="app_name">北斗定位</string>
+    <string name="about"></string>
+    <string name="serverurl_version">http://112.74.94.31/chuxing/version.xml</string>
+</resources>

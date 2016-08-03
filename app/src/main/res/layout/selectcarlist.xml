@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    			     
+    	<LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="horizontal" >
+			        
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView1_SelectMonitorCars"
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:completionThreshold="1"
+                    android:ems="10"
+                    android:text=""
+                    android:textSize="10sp" >
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+    			    <Button
+	                    android:id="@+id/buttonEmpty_SelectMonitorCars"
+	                    android:layout_width="150dp"
+	                    android:layout_height="40dp"
+	                    android:layout_weight="1"
+	                    android:textSize="16sp" 
+	                    android:text="清空" />
+			        </LinearLayout>
+	             <RelativeLayout
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="match_parent"
+	                 android:layout_weight="1" >
+	                 
+	                     
+				    <ListView android:layout_width="150dp"
+				          android:layout_height="wrap_content"
+				          android:layout_gravity="center_horizontal"
+				          android:layout_alignParentLeft="true"
+				          android:id="@+id/ListViewNotMonitorCars_SelectMonitorCars"
+				          />
+				    
+					<ListView android:layout_width="150dp"
+				          android:layout_height="wrap_content" 
+				          android:layout_alignParentRight="true"
+				          android:id="@+id/ListViewMonitorCars_SelectMonitorCars"
+				          />
+				
+	             </RelativeLayout>
+			     <LinearLayout 
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content" 
+			        android:orientation="horizontal" >
+			                
+	                <Button
+	                    android:id="@+id/buttonSelect_SelectMonitorCars"
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:layout_weight="1"
+	                    android:textSize="16sp" 
+	                    android:text="增加监控选择车辆" />
+	                
+	                <Button
+	                    android:id="@+id/buttonCancelSelect_SelectMonitorCars"
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:layout_weight="1"
+	                    android:textSize="16sp" 
+	                    android:text="取消监控选择车辆" />
+			    </LinearLayout>
+                
+                <Button
+                    android:id="@+id/buttonClose_SelectMonitorCars"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="16sp" 
+                    android:text="关闭" />
+
+</LinearLayout>

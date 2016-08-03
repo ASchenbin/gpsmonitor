@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" >
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView_ItemizedOverlayDemo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:completionThreshold="1"
+                    android:ems="10"
+                    android:text=""
+                    android:textSize="10sp" >
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <CheckBox
+                    android:id="@+id/checkBoxLocationInvisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp" />
+
+                <Button
+                    android:id="@+id/btnEmpty_ItemizedOverlayDemo"
+                    android:layout_width="5dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5"
+                    android:text="清空"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSetup_ItemizedOverlayDemo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.6"
+                    android:text="设置"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/buttonCancel_ItemizedOverlayDemo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.6"
+                    android:text="退出"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <com.mapkit.views.MapView
+        android:id="@+id/itemizedoverlayview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_guijihuifang"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="轨迹回放"
+            android:onClick="onGuijihuifang"
+            android:textSize="16sp" />
+        
+ 		<LinearLayout
+        	android:layout_width="0dp"
+        	android:layout_height="40dp"
+        	android:layout_weight="1"
+        	android:orientation="horizontal" />
+ 		
+        <Button
+            android:id="@+id/btn_quyuxuanze"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="区域选择"
+            android:onClick="onQuyuxuanze"
+            android:textSize="16sp" />
+        
+        <Button
+            android:id="@+id/btn_quyuquxiao"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="区域取消"
+            android:onClick="onQuyuquxiao"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewmid_ItemizedOverlayDemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="#FFFFFFFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/TextViewinfotime_ItemizedOverlayDemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="-"
+                android:textColor="#FFFFFFFF"
+                android:textSize="12sp" />
+            
+            <TextView
+	            android:id="@+id/TextViewstatus_ItemizedOverlayDemo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:text="-"
+	            android:textColor="#FFFFFFFF"
+	            android:textSize="12sp" />	   
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+            <TextView
+                android:id="@+id/TextViewcar_name_ItemizedOverlayDemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="#FFFFFFFF"
+                android:textSize="12sp" />
+            <TextView
+	            android:id="@+id/TextViewspeed_ItemizedOverlayDemo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"	   
+	            android:layout_marginLeft="10dp"        
+	            android:text="-"
+	            android:textColor="#FFFFFFFF"
+	            android:textSize="12sp" />
+            
+             <TextView
+              android:id="@+id/TextViewlocation_ItemizedOverlayDemo"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:text="-"     
+	          android:textColor="#FFFFFFFF"
+	          android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

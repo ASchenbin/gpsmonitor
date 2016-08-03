@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mapkit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/mapkit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

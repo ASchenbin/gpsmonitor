@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#009900</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#5a5a5a</color>
+    <color name="gray">#a0a0a0</color>
+    <color name="progress_blue">#1186FF</color> <!-- 蓝色 -->
+
+</resources>

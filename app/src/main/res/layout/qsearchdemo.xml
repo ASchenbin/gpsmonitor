@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnMyLocationOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mylocationOverlay" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnIsKeyAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="鉴权结果" >
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="poi查询，路径，地理编码等查询" >
+    </Button>
+
+    <com.mapkit.views.MapView
+        android:id="@+id/mapviewqsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

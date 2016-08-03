@@ -1,0 +1,100 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* META-INF\
+* META-INF\MANIFEST.MF
+* build.properties
+* soso鈥斺€攕n.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\mapkit.jar => app\libs\mapkit.jar
+* libs\PSTORE_ANDROID_SDK_V1.12.0.jar => app\libs\PSTORE_ANDROID_SDK_V1.12.0.jar
+* libs\slf4j-api-1.7.2.jar => app\libs\slf4j-api-1.7.2.jar
+* libs\TencentLocationSDK_r121155_v3.1.jar => app\libs\TencentLocationSDK_r121155_v3.1.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* res\drawable-hdpi\ => app\src\main\java\
+* res\drawable-hdpi\app.png => app\src\main\resources\app.png
+* res\drawable-hdpi\arrow_up_32x32.png => app\src\main\resources\arrow_up_32x32.png
+* res\drawable-hdpi\ball_green.png => app\src\main\resources\ball_green.png
+* res\drawable-hdpi\ball_greenx32.png => app\src\main\resources\ball_greenx32.png
+* res\drawable-hdpi\ball_red.png => app\src\main\resources\ball_red.png
+* res\drawable-hdpi\ball_redx32.png => app\src\main\resources\ball_redx32.png
+* res\drawable-hdpi\ball_yellow.png => app\src\main\resources\ball_yellow.png
+* res\drawable-hdpi\ball_yellowx32.png => app\src\main\resources\ball_yellowx32.png
+* res\drawable-hdpi\checkbox.png => app\src\main\resources\checkbox.png
+* res\drawable-hdpi\checkbox_empty.png => app\src\main\resources\checkbox_empty.png
+* res\drawable-hdpi\down_green.png => app\src\main\resources\down_green.png
+* res\drawable-hdpi\down_greenx32.png => app\src\main\resources\down_greenx32.png
+* res\drawable-hdpi\down_redx32.png => app\src\main\resources\down_redx32.png
+* res\drawable-hdpi\down_yellow.png => app\src\main\resources\down_yellow.png
+* res\drawable-hdpi\down_yellowx32.png => app\src\main\resources\down_yellowx32.png
+* res\drawable-hdpi\empty16.png => app\src\main\resources\empty16.png
+* res\drawable-hdpi\i3_car00.png => app\src\main\resources\i3_car00.png
+* res\drawable-hdpi\i3_car01.png => app\src\main\resources\i3_car01.png
+* res\drawable-hdpi\login.png => app\src\main\resources\login.png
+* res\drawable-hdpi\mark_location.png => app\src\main\resources\mark_location.png
+* res\drawable-hdpi\markpoint.png => app\src\main\resources\markpoint.png
+* res\drawable-hdpi\normal_0.png => app\src\main\resources\normal_0.png
+* res\drawable-hdpi\normal_stop.png => app\src\main\resources\normal_stop.png
+* res\drawable-hdpi\offline_stop.png => app\src\main\resources\offline_stop.png
+* res\drawable-hdpi\ok_16x16.gif => app\src\main\resources\ok_16x16.gif
+* res\drawable-hdpi\pin_green.png => app\src\main\resources\pin_green.png
+* res\drawable-hdpi\pin_green_pressed.png => app\src\main\resources\pin_green_pressed.png
+* res\drawable-hdpi\pin_red.png => app\src\main\resources\pin_red.png
+* res\drawable-hdpi\pin_red_pressed.png => app\src\main\resources\pin_red_pressed.png
+* res\drawable-hdpi\pin_yellow.png => app\src\main\resources\pin_yellow.png
+* res\drawable-hdpi\pin_yellow_pressed.png => app\src\main\resources\pin_yellow_pressed.png
+* res\drawable-hdpi\poi_center.png => app\src\main\resources\poi_center.png
+* res\drawable-hdpi\poi_center_pressed.png => app\src\main\resources\poi_center_pressed.png
+* res\drawable-hdpi\right90.png => app\src\main\resources\right90.png
+* res\drawable-hdpi\sign_in.png => app\src\main\resources\sign_in.png
+* res\drawable-hdpi\tipinfo.9.png => app\src\main\resources\tipinfo.9.png
+* res\drawable-hdpi\up_redx32.png => app\src\main\resources\up_redx32.png
+* src\ => app\src\main\java\
+* src\.DS_Store => app\src\main\resources\.DS_Store
+* src\com\.DS_Store => app\src\main\resources\com\.DS_Store
+* src\com\tencent\.DS_Store => app\src\main\resources\com\tencent\.DS_Store
+* src\com\tencent\mapsdkdemo\.DS_Store => app\src\main\resources\com\tencent\mapsdkdemo\.DS_Store
+* src\com\tencent\mapsdkdemo\raster\.DS_Store => app\src\main\resources\com\tencent\mapsdkdemo\raster\.DS_Store
+* src\com\tencent\mapsdkdemo\version\.DS_Store => app\src\main\resources\com\tencent\mapsdkdemo\version\.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

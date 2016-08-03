@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="demo_activitys">
+<item>SosoMapDemo</item>
+<item>ItemizedOverlayDemo</item>
+<item>LocationManagerDemo</item>
+<item>QSearchDemo</item>
+<item>StreeViewDemo</item>
+</string-array>
+</resources> 

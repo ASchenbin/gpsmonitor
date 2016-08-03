@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/search_name"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left|center_vertical"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:text="asd阿苏阿斯顿我"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/search_addr"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="middle"
+            android:text="阿斯顿发生的萨顿丰富的"
+            android:singleLine="true"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/search_distance"
+            android:layout_width="65dp"
+            android:layout_height="15dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="234km"
+            android:textColor="#3b90df"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+</LinearLayout>

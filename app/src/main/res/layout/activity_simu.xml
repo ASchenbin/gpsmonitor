@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:onClick="onBack"
+            android:text="返回"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/id_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="title"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <com.mapkit.views.MapView
+        android:id="@+id/itemizedoverlayview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:onClick="onBeginsimu"
+            android:text="模拟"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_endsimu"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:onClick="onEndsimu"
+            android:text="停止"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/btn_v1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="onV1"
+            android:text="x1"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_v2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="onV2"
+            android:text="x2"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_v4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="onV4"
+            android:text="x4"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_v8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="onV8"
+            android:text="x8"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

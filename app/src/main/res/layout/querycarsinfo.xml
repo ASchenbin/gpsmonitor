@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView_QueryCarsInfoActivity"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"                
+                android:completionThreshold="1"
+                android:layout_alignParentLeft="true"
+                android:ems="10"
+                android:text=""
+                android:textSize="16sp" >
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+        	<Button
+                android:id="@+id/btnEmpty_QueryCarsInfoActivity"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.4"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/autoCompleteTextView_QueryCarsInfoActivity"
+                android:text="..." />
+        
+        	<Button
+        	    android:id="@+id/buttonCloseQueryCarsInfo"
+        	    android:layout_width="120dp"
+        	    android:layout_height="40dp"
+        	    android:layout_alignParentRight="true"
+        	    android:textSize="16sp" 
+        	    android:text="关闭" />
+
+        </RelativeLayout>
+
+	
+	<ListView
+	    android:id="@+id/ListViewMonitorCars_QueryCarsInfo"
+	    android:layout_width="wrap_content"
+	    android:textSize="16sp" 
+	    android:layout_height="wrap_content" >		    
+	</ListView>
+	
+</LinearLayout>
